@@ -1,0 +1,52 @@
+
+section{
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(6,100px);
+}
+
+div{
+    border: 1px solid black;
+}
+
+#uguale{
+    grid-column: span 1;
+    grid-row: span 4;
+    background-color: rgb(227, 144, 144);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+#res0{
+    color:white;
+    font-size: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(40, 40, 40);
+    grid-column: span 4;
+    grid-row: span 1;
+}
+
+.forNumbers{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-color: rgb(168, 174, 180);
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.forNumbers1{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-color: rgb(165, 211, 252);
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
