@@ -1,12 +1,14 @@
 body{
 display: flex;
 gap:20px;
+
 }
 
 #green {
     text-align: center;
     background-color: #8ffda7;
-    padding: 10px;
+    padding:10px
+    
 }
 
 #yellow{
@@ -18,13 +20,14 @@ gap:20px;
 
 #orange{
     padding: 10px;
-    text-align: center;
-    padding-right: 100px;
+    /* text-align: center; */
+    flex-grow: 0.2;
     background-color: #ffc788;
 }
 
 #red{
-    text-align: center;
+    /* text-align: center; */
+    flex-grow: 0.001;
     padding:10px;
     background-color: #ff919c;
     order: -1;
@@ -37,9 +40,13 @@ gap:20px;
 }
 
 li{
-    align-items: center;
+    /* align-items: center; */
     background-color: white;
     padding:10px;
     margin:1em;
     display: grid;
+}
+
+ul{
+    padding:0;
 }
