@@ -1,0 +1,66 @@
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  height: 60px;
+  padding: 0 20px 0 20px;
+  background-color: rgb(62, 61, 61);
+}
+
+
+.logoNav{
+  color:white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#search{
+  background-color: transparent;
+  color: green;
+  border: 1px solid green;
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+}
+
+#search:hover{
+  color: white;
+  background-color: green;
+  border-color: green;
+
+}
+
+.hamburger-menu{
+  display: none;
+}
+
+a{
+  color: white;
+  font-size: 20px;
+}
+
+a:hover{
+  color: grey;
+}
+
+@media  only screen and (max-width:768px){
+  .disabled{
+    display: none;
+  }
+  .links{
+    display: none;
+  }
+  #search{
+    display: none;
+  }
+  #searchBox{
+    display: none;
+  }
+  .hamburger-menu{
+    display: contents;
+  }
+  
+}
